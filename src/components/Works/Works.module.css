@@ -1,0 +1,134 @@
+.outer {
+    background-color: #181818;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.worksWrapper {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+
+.worksHeader {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Roboto, sans-serif;
+    color: #08FDD8;
+
+}
+
+.worksBody {
+    display: flex;
+    padding-top: 50px;
+    flex-wrap: wrap;
+
+}
+
+.wrapperA{
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapperA a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+.wrapperA a span{
+    position: relative;
+    z-index: 2;
+}
+
+.wrapperA a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #04B4AE;
+    transition: all .35s;
+}
+
+.wrapperA a:hover{
+    color: #fff;
+}
+
+.wrapperA a:hover:after{
+    width: 100%;
+}
+
+.work {
+    width: 33.33333%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.img {
+    /*margin-top: -20px;*/
+    height: 350px;
+    width: 400px;
+    position: relative;
+    transition: 0.8s ease;
+}
+
+.img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.8s;
+    box-shadow:
+            1px 1px #53ea93,
+            2px 2px #53ea93,
+            3px 3px #53ea93,
+            4px 4px #53ea93,
+            5px 5px #53ea93,
+            6px 6px #53ea93,
+            7px 7px #53ea93;
+
+
+}
+
+
+.img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.workInfo {
+   padding-top: 100px;
+}
+

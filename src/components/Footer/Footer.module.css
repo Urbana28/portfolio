@@ -1,0 +1,43 @@
+.container {
+    height: 200px;
+    background-color: #181818;
+}
+
+.wrapper {
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.header {
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    color: #BDBDBD;
+}
+.footer {
+    font-weight: normal;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+    color: #BDBDBD;
+}
+
+.icons a svg {
+    fill: #333333;
+    padding-left: 10px;
+    transition: .5s;
+}
+.icons a svg:hover {
+    fill: #08FDD8;
+    padding-left: 10px;
+    transition: .5s;
+}
+
+.home:hover {
+
+    fill: white;
+
+}

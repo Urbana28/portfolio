@@ -1,0 +1,122 @@
+.outer {
+    background-color: #181818;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    /*height: 100vh;*/
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header {
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 50px;
+    color: #08FDD8;
+    font-family: Roboto, sans-serif;
+}
+
+.infoContacts {
+    height: 300px;
+    width: 600px;
+
+}
+
+.firstBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+
+
+}
+
+.firstBlock input {
+    width: 295px;
+    height: 50px;
+    text-align: left;
+    background: #2E2E2E;
+    border: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+.secBlock {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.secBlock input {
+    margin-bottom: 10px;
+    background:  #2E2E2E;
+    border: none;
+    padding-left: 20px;
+    color: whitesmoke;
+    font-family: sans-serif, Roboto;
+    font-weight: normal;
+}
+
+.subject {
+    height: 50px;
+}
+.message {
+    height: 250px;
+}
+
+.button {
+    height: 30px;
+    width: 70px;
+    background: none;
+    border-color: #08FDD8;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: normal;
+    color: #08FDD8;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-left: 535px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.firstBlock input:focus {
+    outline: none;
+    border-bottom: 1px solid deeppink;
+    transition: .3s;
+}
+
+.firstBlock input:focus::placeholder {
+    opacity: 0;
+    color: gray;
+}
+
+.secBlock input:focus {
+    outline: none;
+    border-bottom: 1px solid deeppink;
+    transition: .3s;
+}
+
+.secBlock input:focus::placeholder {
+    opacity: 0;
+    color: gray;
+}
+
+

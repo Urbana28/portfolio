@@ -1,0 +1,46 @@
+.outer {
+    background-color: #181818;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+
+}
+
+.wrapper {
+    height: 100vh;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutMe p{
+    text-align: left;
+    font-weight: bolder;
+    font-size: 65px;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+
+}
+.aboutMe p span {
+    color: #08FDD8;
+    text-shadow: 4px 4px deeppink;
+}
+
+
+
+.photo {
+    background-image: url("http://www.fubiz.net/wp-content/uploads/2019/06/portrait1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 350px;
+}

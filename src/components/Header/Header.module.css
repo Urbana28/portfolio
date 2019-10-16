@@ -1,0 +1,101 @@
+.outer {
+    height:60px;
+    /* position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 3;
+     min-height: 0;*/
+    background-color: #181818;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 60px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Roboto, sans-serif;
+    color: #08FDD8;
+    background:none;
+
+    text-shadow: 4px 4px deeppink;
+}
+
+
+
+.nav {
+    display: flex;
+}
+
+.navItem {
+    margin-right: 80px;
+    margin-top: 15px;
+    transition: .5s;
+}
+
+
+.navItem a {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(8, 253, 216);
+    transition: .3s;
+
+}
+.navItem a:hover {
+    color: deeppink ;
+    transition: .3s;
+}
+
+.sites {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.vk svg {
+    fill: #4d4d4e;
+    transition: .5s;
+}
+.vk svg:hover {
+    fill: #08FDD8;
+    transition: .5s;
+}
+
+.facebook svg {
+    fill: #4d4d4e;
+    transition: .5s;
+}
+.facebook svg:hover {
+    fill: #08FDD8;
+    transition: .5s;
+}
+
+.git svg {
+    fill: #4d4d4e;
+    transition: .5s;
+}
+.git svg:hover {
+    fill: #08FDD8;
+    transition: .5s;
+}
+
+
+
+
+
+
+
